@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login & Department | Karim Khaled</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="master.css">
+  
+
+
+</head>
+
+<body>
+
+
+
+  <div class="centered" id="login-section">
+    <div class="login-box" style="transform: scale(1.1);">
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <input type="password" id="confirmPassword" placeholder="Confirm Password">
+      <label style="font-size: 14px; display: flex; align-items: center; justify-content: flex-start; gap: 8px; color: white;">
+        <input type="checkbox" onclick="togglePassword()"> Show Password
+      </label>
+      <button onclick="validateLogin()">Login</button>
+      <p id="error-message" style="color:red;"></p>
+    </div>
+  </div>
+
+
+  <!-- صفحة قسم هندسة الحاسبات -->
+
+ <div id="cv-section" style="display:none; direction: rtl; font-family: 'Cairo', sans-serif;">
+
+  <div class="container">
+
+    <header class="header" style="display:flex; justify-content:flex-start; align-items:center; gap: 20px; padding: 10px 0;">
+     
+      <img src="logo.png" alt="شعار القسم" class="logo" style="width:120px; height:auto;">
+      <h1 style="font-size:2.5rem; margin: 0;">قسم هندسة الحاسبات بالأكاديمية الحديثة للهندسة</h1>
+
+    </header>
+
+    <p id="typedText" class="typing" style="text-align:right; font-size:1.2rem; margin-bottom: 30px;"></p>
+
+    <section class="mission">
+
+      <h2>🎯 الرسالة (Mission)</h2>
+
+    <p>
+
+        نهدف إلى إعداد كوادر هندسية متخصصة في تصميم وتطوير الأنظمة الذكية، الحوسبة المدمجة، والشبكات، من خلال مناهج متطورة تجمع بين النظرية والتطبيق.
+      
+    </p>
+
+      <ul>
+
+        <li>تنمية القدرة على التفكير النقدي وحل المشكلات.</li>
+        <li>إكساب المهارات العملية في البرمجة، الإلكترونيات، والذكاء الاصطناعي.</li>
+        <li>تأهيل الطلاب لسوق العمل والمشاركة في مشاريع تخرج متميزة.</li>
+
+      </ul>
+
+    </section>
+
+    <section class="diagram" style="margin-top: 40px;">
+
+      <h2>📊 هيكل القسم</h2>
+
+      <a href="https://kvrimmmm.github.io/Computer-Enginnering-Department/">هيكل هندسة قسم حاسبات بالأكاديمية</a>
+
+    </section>
+
+    <section class="faculty" style="margin-top: 50px;">
+
+
+    <h2>لمعرفه المزيد عن مواد القسم:</h2>
+
+    <a id = "no" href="https://shadowzxcv.github.io/subjects-modern-academy/" >مواد هندسة قسم حاسبات بالأكاديمية</a>
+
+      </div>
+    </section>
+
+  </div>
+
+</div>
+
+  <section class="footer">
+
+    <p>Made With ❤️ By 
+        <a href="https://www.linkedin.com/in/karim-khaled-b17170329/" target="_blank">
+            Karim Khaled Ismail
+        </a>
+    </p>
+</section>
+
+        
+    <script src="main.js"></script>
+
+    </body>
+
+</html>
